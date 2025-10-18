@@ -1,7 +1,12 @@
 1. CONOCIMIENTOS SQL
+
 1.1) Describe el funcionamiento general de la sentencia JOIN.
-  La sentencia JOIN en SQL se utiliza para combinar registros de dos o más tablas en una consulta, basándose en una condición lógica, comúnmente una relación entre columnas, por ejemplo, claves foráneas y claves primarias.
+
+  La sentencia JOIN en SQL se utiliza para combinar registros de dos o más tablas en una consulta, 
+  basándose en una condición lógica, comúnmente una relación entre columnas, por ejemplo, claves foráneas y claves primarias.
+
 1.2) ¿Cuáles son los tipos de JOIN y cuál es el funcionamiento de los mismos?
+
   Los tipos de JOIN en SQL son:
   INNER JOIN	Devuelve solo las filas que tienen coincidencias en ambas tablas.
   LEFT JOIN. - Devuelve todas las filas de la tabla izquierda y las coincidentes de la derecha. Si no hay coincidencia, rellena con NULL.
@@ -9,8 +14,11 @@
   FULL OUTER JOIN. - Devuelve todas las filas de ambas tablas. Si no hay coincidencia, se rellenan con NULL.
   CROSS JOIN. -  Devuelve el producto cartesiano de ambas tablas (todas las combinaciones posibles).
   SELF JOIN. - Es un JOIN de una tabla consigo misma. Se usa para comparar filas dentro de la misma tabla.
+
 1.3) ¿Cuál el funcionamiento general de los TRIGGER y qué propósito tienen?
-  Un TRIGGER (disparador) es una acción que se ejecuta automáticamente en respuesta a ciertos eventos INSERT, UPDATE o DELETE sobre una tabla o vista. Se puede ejecutar antes (BEFORE) o después (AFTER) del evento.
+
+  Un TRIGGER (disparador) es una acción que se ejecuta automáticamente en respuesta a 
+  ciertos eventos INSERT, UPDATE o DELETE sobre una tabla o vista. Se puede ejecutar antes (BEFORE) o después (AFTER) del evento.
   El propósito de uso es:
   •	Validaciones automáticas.
   •	Auditorías (registro de cambios en una tabla).
@@ -18,4 +26,6 @@
   •	Impedir o controlar operaciones no deseadas.
 
 1.4) ¿Qué es y para qué sirve un STORED PROCEDURE?
-  Un Stored Procedure es un conjunto de instrucciones SQL almacenadas en la base de datos. Se utiliza para ejecutar tareas repetitivas, mejorar el rendimiento y proteger la lógica de negocio.
+
+  Un Stored Procedure es un conjunto de instrucciones SQL almacenadas en la base de datos. 
+  Se utiliza para ejecutar tareas repetitivas, mejorar el rendimiento y proteger la lógica de negocio.
